@@ -75,11 +75,11 @@ const HeroCard = () => {
             <span className="text-[#0FA958]">AI Challenges?</span>
           </div>
 
-          <div className="flex flex-col gap-[39px] w-[80%] ">
+          <div className="flex flex-col gap-[39px] px-[160px]">
             <div className="flex gap-[35px]">
               <div className="bg-[#F8F9FD]">
-                <div className="flex flex-col gap-[5px]">
-                  <div>
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+                  <div className="h-[43px] w-[43px]">
                     <img
                       src="/assets/icons/carbon_notebook-reference.svg"
                       alt="notebook"
@@ -88,7 +88,7 @@ const HeroCard = () => {
                   <p className="text-2xl leading-[50px] font-semibold">
                     Prove your skills
                   </p>
-                  <p>
+                  <p className="font-medium text-base">
                     Gain substantial experience by solving real-world problems
                     and pit against others to come up with innovative solutions.
                   </p>
@@ -96,17 +96,53 @@ const HeroCard = () => {
               </div>
 
               <div className="bg-[#F8F9FD]">
-                <div className="flex flex-col gap-[5px] ">
-                  <div>
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+                  <div className="h-[43px] w-[43px]">
+                    <img src="/assets/icons/Vector.svg" alt="notebook" />
+                  </div>
+                  <p className="text-2xl leading-[50px] font-semibold">
+                    Learn from community
+                  </p>
+                  <p className="font-medium text-base">
+                    One can look and analyze the solutions submitted by the
+                    other Data Scientists in the community and learn from them.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex gap-[35px]">
+              <div className="bg-[#F8F9FD]">
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+                  <div className="h-[43px] w-[43px]">
+                    <img src="/assets/icons/Robot.svg" alt="notebook" />
+                  </div>
+                  <p className="text-2xl leading-[50px] font-semibold">
+                    Challenge yourself
+                  </p>
+                  <p className="font-medium text-base">
+                    There is nothing for you to lose by participating in a
+                    challenge. You can fail safe, learn out of the entire
+                    experience and bounce back harder.
+                  </p>
+                </div>
+              </div>
+
+              <div className="bg-[#F8F9FD]">
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+                  <div className="h-[43px] w-[43px]">
                     <img
-                      src="/assets/icons/carbon_notebook-reference.svg"
+                      src="/assets/icons/IdentificationCard.svg"
                       alt="notebook"
                     />
                   </div>
-                  <p>Prove your skills</p>
-                  <p>
-                    Gain substantial experience by solving real-world problems
-                    and pit against others to come up with innovative solutions.
+                  <p className="text-2xl leading-[50px] font-semibold">
+                    Earn recognition
+                  </p>
+                  <p className="font-medium text-base">
+                    You will stand out from the crowd if you do well in AI
+                    challenges, it not only helps you shine in the community but
+                    also earns rewards.
                   </p>
                 </div>
               </div>
