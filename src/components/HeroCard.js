@@ -77,7 +77,7 @@ const HeroCard = () => {
 
           <div className="flex flex-col gap-[39px] px-[160px]">
             <div className="flex gap-[35px]">
-              <div className="bg-[#F8F9FD]">
+              <div className="bg-[#F8F9FD] rounded-[20px]">
                 <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
                   <div className="h-[43px] w-[43px]">
                     <img
@@ -95,8 +95,8 @@ const HeroCard = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F8F9FD]">
-                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+              <div className="bg-[#F8F9FD] rounded-[20px]">
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] ">
                   <div className="h-[43px] w-[43px]">
                     <img src="/assets/icons/Vector.svg" alt="notebook" />
                   </div>
@@ -112,8 +112,8 @@ const HeroCard = () => {
             </div>
 
             <div className="flex gap-[35px]">
-              <div className="bg-[#F8F9FD]">
-                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+              <div className="bg-[#F8F9FD] rounded-[20px]">
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px]  ">
                   <div className="h-[43px] w-[43px]">
                     <img src="/assets/icons/Robot.svg" alt="notebook" />
                   </div>
@@ -128,8 +128,8 @@ const HeroCard = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F8F9FD]">
-                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px] rounded-[20px] ">
+              <div className="bg-[#F8F9FD] rounded-[20px]">
+                <div className="flex flex-col gap-[5px] pb-[62px] pt-[59px] pl-[31px] pr-[40px]  ">
                   <div className="h-[43px] w-[43px]">
                     <img
                       src="/assets/icons/IdentificationCard.svg"
